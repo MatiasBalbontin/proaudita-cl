@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #0019FF;
+  --color-navy: #1A1A5E;
+  --color-bg: #FFFFFF;
+  --color-surface: #F5F7FA;
+  --color-ink: #0D0D2B;
+  --color-muted: #6B7280;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-inter antialiased;
+    font-size: 1rem;
+    color: var(--color-ink);
+    background: var(--color-bg);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-grotesk;
+  }
+
+  ::selection {
+    background: var(--color-primary);
+    color: white;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-navy) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Subtle film-grain texture, used over flat color fields to kill the "flat SaaS" look */
+  .bg-grain {
+    position: relative;
+  }
+  .bg-grain::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+  }
+
+  /* Reveal-on-scroll: visible by default (no-JS / crawlers always see content).
+     JS arms the hidden pre-state on mount, then IntersectionObserver reveals it. */
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  .reveal.reveal-armed {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  .reveal.reveal-armed.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .clip-diagonal {
+    clip-path: polygon(0 3.5vw, 100% 0, 100% calc(100% - 3.5vw), 0 100%);
+  }
+}
