@@ -4,30 +4,30 @@ const steps = [
   {
     n: '01',
     title: 'Diagnóstico',
-    duration: '30 min · sin costo',
+    duration: 'Evaluación inicial · sin costo',
     description:
-      'Conversamos sobre tu organización. Salgo con una lectura honesta de tu situación — y te digo si puedo ayudarte o no.',
+      'Conversamos sobre tu organización. El equipo entrega una lectura objetiva de la situación y define el alcance del trabajo.',
   },
   {
     n: '02',
     title: 'Propuesta',
-    duration: 'dentro de 48 horas',
+    duration: 'Dentro de 48 horas',
     description:
-      'Alcance, plazos y forma de trabajo por escrito. Sin letra chica ni compromisos abiertos.',
+      'Alcance, plazos y honorarios por escrito, alineados a tus objetivos.',
   },
   {
     n: '03',
     title: 'Ejecución',
-    duration: 'según alcance acordado',
+    duration: 'Según alcance acordado',
     description:
-      'Trabajo con avances visibles, no una caja negra hasta el informe final. Reporto en el camino.',
+      'Trabajo con hitos y reportes de avance definidos — visibilidad continua, no una entrega única al final.',
   },
   {
     n: '04',
     title: 'Seguimiento',
-    duration: 'continuo',
+    duration: 'Continuo',
     description:
-      'Cierre de hallazgos, ajustes y disponibilidad para lo que surja después de la entrega.',
+      'Cierre de hallazgos, seguimiento de recomendaciones y disponibilidad posterior a la entrega.',
   },
 ]
 
@@ -41,10 +41,10 @@ export default function Process() {
               Cómo trabajamos
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-semibold text-ink leading-tight">
-              De la primera llamada al resultado, sin sorpresas
+              De la primera reunión al resultado, sin sorpresas
             </h2>
             <p className="mt-4 text-muted text-lg leading-relaxed">
-              Cuatro pasos claros. Sabes qué esperar antes de agendar.
+              Cuatro etapas claras. Sabes qué esperar antes de comenzar.
             </p>
           </div>
         </Reveal>
