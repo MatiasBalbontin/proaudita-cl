@@ -2,18 +2,21 @@
 
 ## Marca
 
-**Nombre:** Proaudita  
-**Dominio:** proaudita.cl  
-**Tagline:** "Auditoría estratégica. Resultados medibles."  
-**Posicionamiento:** Auditoría estratégica transversal — el perfil que se sienta en la mesa directiva y tiene algo útil que decir para cada área (contabilidad, procesos, tecnología).  
-**Diferenciador central:** Triple formación contador auditor + ingeniería informática + transformación digital. Escaso en Chile.
+**Nombre:** Proaudita
+**Dominio:** proaudita.cl
+**Tagline:** "Auditoría estratégica. Resultados medibles."
+**Posicionamiento:** Firma de auditoría, tributación y consultoría de procesos para
+empresas grandes y medianas. Compite por percepción directa con Deloitte y PwC —
+foco exclusivamente privado, sin sector público.
+**Diferenciador central:** Equipo con base en auditoría, ingeniería y transformación
+digital — auditoría con visión técnica, no solo normativa.
 
 ---
 
-## Propietario
+## Liderazgo
 
-**Nombre:** Matías Rodrigo Balbontín Gaete  
-**Nombre para el sitio:** Matías Balbontín  
+**Nombre:** Matías Rodrigo Balbontín Gaete
+**Rol:** Socio Fundador y CEO
 
 ### Credenciales (en orden de presentación)
 
@@ -34,44 +37,43 @@
 
 ---
 
-## Servicios (fase 1) — 5 servicios en 3 grupos
+## Áreas de práctica
 
-Los 5 servicios se presentan agrupados en 3 áreas para evitar que la sección se lea como lista plana.
+Los servicios se presentan como 4 practice areas, estilo firma de auditoría:
 
-### Grupo 1 — Auditoría y diagnóstico
-1. **Auditoría de procesos y gestión** — mapeo, evaluación y optimización de flujos operacionales. El más diferenciador. Foco inicial en sector público (municipios, organismos).
-2. **Diagnóstico y ordenamiento contable-financiero** — punto de entrada natural. Estado actual de la organización en base a su estructura contable y financiera.
+### 01 — Auditoría & Assurance
+1. **Auditoría de procesos y gestión** — evaluación independiente de flujos
+   operacionales y controles internos.
+2. **Diagnóstico contable-financiero** — revisión del estado contable y financiero,
+   plan de regularización con hallazgos priorizados.
 
-### Grupo 2 — Contabilidad y tributario
-3. **Contabilidades completas** — servicio recurrente. Registro, control y reporte contable para empresas y organizaciones que externalizan su contabilidad.
-4. **Planificación tributaria** — alto valor en el mercado privado chileno. Optimización de la carga tributaria dentro del marco legal vigente.
+### 02 — Tax Advisory
+3. **Planificación tributaria** — optimización de la carga tributaria dentro del
+   marco legal chileno.
 
-### Grupo 3 — Tecnología y procesos
-5. **Automatización de flujos de trabajo** — diferenciador tecnológico. Eliminación de procesos repetitivos e ineficientes mediante tecnología. Aplica a ambos sectores (público y privado).
+### 03 — Compliance & Reporting
+4. **Contabilidades completas** — administración contable externalizada, recurrente.
 
----
+### 04 — Consultoría Tecnológica
+5. **Automatización de flujos de trabajo** — diseño e implementación de
+   automatización de procesos operativos y de reporte.
 
-**Nota de modelo de negocio:** Grupos 2 (contabilidad + tributario) aportan ingreso recurrente y estabilidad financiera. Grupos 1 y 3 (auditoría + automatización) son los servicios de mayor diferenciación y ticket. El sitio debe comunicar ambas dimensiones sin sacrificar el posicionamiento estratégico por parecer "contador de barrio".
+**Nota de modelo de negocio:** Compliance & Reporting (contabilidad recurrente)
+aporta ingreso estable. Auditoría & Assurance y Consultoría Tecnológica son los de
+mayor diferenciación y ticket.
 
 ---
 
 ## Mercado objetivo
 
-**Posicionamiento del sitio:** cualquier organización chilena (pública o privada) que quiera optimizar recursos — humanos y monetarios. El sitio no segmenta por tipo de cliente, habla al decisor que tiene el problema.
+**Posicionamiento del sitio:** empresas privadas grandes y medianas en Chile que
+necesitan auditoría, cumplimiento tributario o consultoría de procesos con
+estándares de firma profesional. Sin foco en sector público — decisión explícita
+para no diluir el posicionamiento frente a Deloitte/PwC.
 
-### Canal inbound (social media + contenido)
-**Foco:** sector privado — empresas medianas y grandes, pymes con potencial de crecimiento.  
-Razón: más activos en LinkedIn y redes, decisiones más ágiles, más receptivos a contenido digital.
-
-### Canal outbound (prospección directa)
-**Foco:** municipios y organismos públicos.  
-Razón: obligaciones de auditoría reguladas (Contraloría, SUBDERE, CGR), red de referidos interna, proceso replicable. Una vez ganado un municipio, el modelo se replica.
-
-### Secundario / largo plazo
-Organizaciones sin fines de lucro con financiamiento externo.
-
-**Descartado:** Partidos políticos (riesgo reputacional de marca).  
 **Alcance geográfico:** Chile (mercado nacional).
+
+**Descartado:** Sector público (municipios, organismos), partidos políticos.
 
 ---
 
@@ -101,12 +103,12 @@ Organizaciones sin fines de lucro con financiamiento externo.
 
 | Canal | Detalle |
 |---|---|
-| Formulario web | Nombre, empresa, email, descripción del desafío |
-| WhatsApp Business | +56 9 9438 8261 |
-| Cal.com | https://app.cal.com/matiasbalbontin |
+| Formulario web | Nombre, empresa, email, descripción del desafío — CTA principal |
+| Cal.com | https://app.cal.com/matiasbalbontin — opción secundaria discreta |
+| WhatsApp | +56 9 9438 8261 — opción secundaria discreta, sin botón flotante global |
 
-**Reuniones en Cal.com:** 15 min (primera conversación), 30 min (diagnóstico inicial), 60 min (sesión completa)  
-**CTA principal recomendado:** "Agendar diagnóstico gratuito" → link directo a reunión 30 min
+**CTA principal:** "Solicitar una reunión" → ancla al formulario de contacto
+(`#contacto`), no directo a Cal.com.
 
 ---
 
@@ -238,3 +240,8 @@ Ejecutar en Claude Code una vez el sitio esté construido:
 | Contacto | Formulario + WhatsApp + Cal.com (Cal.com como CTA dominante) | Solo formulario, solo teléfono, CTAs con igual peso visual |
 | Casos de éxito | Ninguno en lanzamiento | Casos genéricos fabricados |
 | Assets de marca | Vectorizado en SVG/código a partir de dirección de marca propia (ver `assets/ASSETS.md`) | Reutilizar plantillas existentes, imagen rasterizada pegada |
+| Posicionamiento | Firma enterprise (vs. Deloitte/PwC) | Marca personal independiente |
+| Mercado objetivo | Empresas grandes/medianas, privado exclusivo | Espectro público+privado |
+| CTA principal | Formulario de contacto | Cal.com directo |
+| Tono | Formal-accesible | Cercano/casual |
+| Visual | Sobrio, sin animación decorativa | Tech/startup, animado |
