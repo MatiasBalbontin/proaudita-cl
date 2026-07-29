@@ -74,15 +74,18 @@ export default function Profile() {
 
               <div className="mt-6 space-y-5 text-muted text-lg leading-relaxed">
                 <p>
-                  En Proaudita partimos de una pregunta simple: ¿por qué la
-                  auditoría sigue mirando solo el pasado, en vez de ayudar a
-                  construir lo que viene?
+                  Fundé Proaudita con una convicción: la auditoría no puede
+                  seguir operando con las herramientas de hace veinte años
+                  cuando la empresa que audita ya opera con las de hoy.
                 </p>
                 <p>
-                  Formé la firma sobre esa idea. Mi formación combina auditoría,
-                  ingeniería y transformación digital — una combinación poco común
-                  en Chile — y la uso para que cada revisión termine en decisiones
-                  concretas, no en un informe que nadie vuelve a abrir.
+                  No se trata solo de auditar, revisar y controlar — eso sigue
+                  siendo la base. Se trata de usar esas mismas herramientas
+                  para avanzar hacia un mejor funcionamiento: procesos más
+                  fiables, información en la que se pueda confiar. Esa
+                  información termina definiendo gran parte de las decisiones
+                  de una organización, y esas decisiones repercuten en sus
+                  clientes, sus accionistas, sus equipos y todo su entorno.
                 </p>
                 <p>
                   Trabajamos con empresas medianas y grandes que quieren ir más
