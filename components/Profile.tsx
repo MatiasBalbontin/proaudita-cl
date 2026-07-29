@@ -74,15 +74,15 @@ export default function Profile() {
 
               <div className="mt-6 space-y-5 text-muted text-lg leading-relaxed">
                 <p>
-                  La mayoría de las auditorías te dicen qué salió mal. Muy
-                  pocas te ayudan a que no vuelva a pasar.
+                  Creo en una auditoría que no solo revisa — construye
+                  confianza: en tus procesos, en tus números, y en las
+                  decisiones que tomas con ellos.
                 </p>
                 <p>
-                  Fundé Proaudita para cerrar esa brecha: usamos tecnología
-                  para que tus procesos sean más confiables y tu información
-                  esté lista para decisiones reales — las que terminan
-                  afectando a tus clientes, tus accionistas, tu equipo y todo
-                  lo que construiste.
+                  Fundé Proaudita para eso. Combino auditoría y tecnología
+                  para que esa confianza sea real, no un informe más — porque
+                  esas decisiones terminan afectando a tus clientes, tus
+                  accionistas, tu equipo y todo lo que construiste.
                 </p>
                 <p>
                   Trabajamos con empresas medianas y grandes que quieren ir más
