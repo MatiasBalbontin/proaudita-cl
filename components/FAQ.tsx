@@ -2,28 +2,24 @@ import Reveal from './Reveal'
 
 const faqs = [
   {
-    q: '¿El diagnóstico inicial tiene costo?',
-    a: 'No. Son 30 minutos sin costo y sin compromiso. Al final te digo honestamente si puedo ayudarte y cómo — si no es el caso, también te lo digo.',
+    q: '¿La evaluación inicial tiene costo?',
+    a: 'No. Es una conversación inicial sin costo ni compromiso, donde el equipo determina el alcance y la forma de trabajo antes de cualquier propuesta formal.',
   },
   {
-    q: '¿Trabajan solo con empresas grandes o también con pymes?',
-    a: 'Trabajo con cualquier organización que quiera optimizar sus recursos — empresas de cualquier tamaño, así como organismos públicos. No hay un mínimo de tamaño para conversar.',
-  },
-  {
-    q: '¿Atienden organizaciones del sector público?',
-    a: 'Sí, son parte del espectro de clientes. El estándar de trabajo es el mismo rigor que exige un rol contralor — el que aplica la Contraloría en el sector público — así que encaja de forma natural con esos requisitos.',
+    q: '¿Qué tipo de empresas atienden?',
+    a: 'El foco de la firma está en empresas medianas y grandes que requieren auditoría, cumplimiento tributario o consultoría de procesos con estándares de firma profesional.',
   },
   {
     q: '¿Cómo manejan la confidencialidad de la información?',
-    a: 'Toda la información compartida en el diagnóstico y durante el trabajo se trata de forma confidencial. Si tu organización requiere un acuerdo de confidencialidad formal antes de compartir datos, se firma sin problema.',
+    a: 'Toda la información se trata de forma confidencial. Firmamos acuerdos de confidencialidad (NDA) cuando la organización lo requiere antes de compartir información sensible.',
   },
   {
     q: '¿Qué pasa después de recibir la propuesta?',
-    a: 'Tienes el tiempo que necesites para revisarla. Si no hay respuesta dentro de 5 días, hago un seguimiento breve por WhatsApp — nada de insistencia excesiva.',
+    a: 'Cuentas con el tiempo que necesites para evaluarla. Si no hay respuesta dentro de un plazo razonable, el equipo hace un seguimiento breve.',
   },
   {
     q: '¿Cuánto dura un proyecto típico?',
-    a: 'Depende del alcance: un diagnóstico contable puede resolverse en semanas, mientras que una auditoría de procesos o una automatización compleja toma más tiempo. El plazo queda definido en la propuesta, no después.',
+    a: 'Depende del alcance: un diagnóstico contable puede resolverse en semanas, mientras que una auditoría de procesos o una automatización más compleja toma más tiempo. El plazo queda definido en la propuesta formal, no después.',
   },
 ]
 
