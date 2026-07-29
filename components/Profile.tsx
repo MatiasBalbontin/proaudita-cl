@@ -74,18 +74,15 @@ export default function Profile() {
 
               <div className="mt-6 space-y-5 text-muted text-lg leading-relaxed">
                 <p>
-                  Fundé Proaudita con una convicción: la auditoría no puede
-                  seguir operando con las herramientas de hace veinte años
-                  cuando la empresa que audita ya opera con las de hoy.
+                  La mayoría de las auditorías te dicen qué salió mal. Muy
+                  pocas te ayudan a que no vuelva a pasar.
                 </p>
                 <p>
-                  No se trata solo de auditar, revisar y controlar — eso sigue
-                  siendo la base. Se trata de usar esas mismas herramientas
-                  para avanzar hacia un mejor funcionamiento: procesos más
-                  fiables, información en la que se pueda confiar. Esa
-                  información termina definiendo gran parte de las decisiones
-                  de una organización, y esas decisiones repercuten en sus
-                  clientes, sus accionistas, sus equipos y todo su entorno.
+                  Fundé Proaudita para cerrar esa brecha: usamos tecnología
+                  para que tus procesos sean más confiables y tu información
+                  esté lista para decisiones reales — las que terminan
+                  afectando a tus clientes, tus accionistas, tu equipo y todo
+                  lo que construiste.
                 </p>
                 <p>
                   Trabajamos con empresas medianas y grandes que quieren ir más
