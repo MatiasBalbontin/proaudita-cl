@@ -7,7 +7,7 @@ const credentials = [
   },
   {
     degree: 'Ingeniería en Informática',
-    institution: 'En proceso',
+    institution: 'UNAB',
   },
   {
     degree: 'Digital Transformation Management',
@@ -15,7 +15,7 @@ const credentials = [
   },
   {
     degree: 'Dirección y Gestión de Proyectos',
-    institution: 'Universidad Nacional de Córdoba (edX) · 2022',
+    institution: 'Universidad Nacional de Córdoba · 2022',
   },
 ]
 

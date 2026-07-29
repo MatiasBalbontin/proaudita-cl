@@ -23,9 +23,9 @@ digital — auditoría con visión técnica, no solo normativa.
 | Credencial | Institución | Año |
 |---|---|---|
 | Contador Auditor | Universidad de Concepción | 2024 |
-| Ingeniería en Informática | (en proceso) | — |
+| Ingeniería en Informática | UNAB | — |
 | Digital Transformation Management | UNAB + Arizona State University (W.P. Carey) | 2026 |
-| Dirección y Gestión de Proyectos | Universidad Nacional de Córdoba (edX) | 2022 |
+| Dirección y Gestión de Proyectos | Universidad Nacional de Córdoba | 2022 |
 
 ### Capacidades técnicas (para sección de perfil)
 - IA y datos: IBM Granite, IBM SkillsBuild
