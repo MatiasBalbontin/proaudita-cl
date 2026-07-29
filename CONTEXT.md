@@ -119,11 +119,11 @@ para no diluir el posicionamiento frente a Deloitte/PwC.
 | Sección | Anchor | Contenido |
 |---|---|---|
 | Hero | `#inicio` | Tagline, subtítulo, CTA principal |
-| Servicios | `#servicios` | 3 cards de servicio con descripción |
-| Perfil | `#perfil` | Bio, credenciales, capacidades técnicas |
-| Contacto | `#contacto` | Formulario + WhatsApp + Cal.com |
+| Servicios | `#servicios` | 4 pilares (Auditoría & Assurance, Tax Advisory, Compliance & Reporting, Consultoría Tecnológica) |
+| Perfil | `#perfil` | Liderazgo — bio ejecutiva, credenciales, formación |
+| Contacto | `#contacto` | Formulario principal (nombre, empresa, email, desafío) + Cal.com y WhatsApp como opciones secundarias |
 
-**Navegación:** sticky header con logo + links de anchor + CTA "Agendar"
+**Navegación:** sticky header con logo + links de anchor + CTA "Contacto"
 
 ---
 
