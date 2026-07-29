@@ -65,7 +65,7 @@
   }
   .reveal.reveal-armed {
     opacity: 0;
-    transform: translateY(28px);
+    transform: translateY(12px);
   }
   .reveal.reveal-armed.is-visible {
     opacity: 1;
