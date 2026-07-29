@@ -226,6 +226,7 @@ Ejecutar en Claude Code una vez el sitio esté construido:
 - [ ] **Actualizar Cal.com** — bio en español con posicionamiento correcto. Actual: "Audit Accountant, Software and AI Engineer" → propuesta: "Contador Auditor · Ingeniería en Informática | Auditoría estratégica de procesos y recursos"
 - [ ] **Actualizar LinkedIn** — URL a confirmar, incluir en sitio cuando esté actualizado
 - [ ] **WhatsApp Business** — configurar cuenta Business con nombre Proaudita en el +56 9 9438 8261
+- [ ] **Revisar "Plan de captación de leads" y "Roadmap de fases"** — esas secciones todavía describen una estrategia (scraping de municipios, contenido sobre normativa Contraloría, Cal.com como CTA principal) escrita antes del pivot a firma enterprise. No se reescribieron en este pivot por estar fuera de alcance; necesitan una revisión propia alineada al nuevo posicionamiento (empresas grandes/medianas, formulario como CTA principal).
 
 ---
 
@@ -233,15 +234,13 @@ Ejecutar en Claude Code una vez el sitio esté construido:
 
 | Decisión | Opción elegida | Alternativa descartada |
 |---|---|---|
-| Cliente prioritario | Espectro completo (público y privado, sin priorizar municipios) | Municipios como prioridad, partidos políticos |
+| Cliente prioritario | Empresas grandes/medianas, privado exclusivo | Espectro público+privado, municipios como prioridad, partidos políticos |
 | Estructura sitio | One-page | Multi-page |
 | Tech | Next.js + Vercel | WordPress, HTML estático |
 | Estética | Institucional moderno + toque tech | Cálido boutique, full tech minimalista |
-| Contacto | Formulario + WhatsApp + Cal.com (Cal.com como CTA dominante) | Solo formulario, solo teléfono, CTAs con igual peso visual |
+| Contacto | Formulario + WhatsApp + Cal.com (formulario como CTA dominante) | Solo formulario, solo teléfono, CTAs con igual peso visual, Cal.com como CTA dominante |
 | Casos de éxito | Ninguno en lanzamiento | Casos genéricos fabricados |
 | Assets de marca | Vectorizado en SVG/código a partir de dirección de marca propia (ver `assets/ASSETS.md`) | Reutilizar plantillas existentes, imagen rasterizada pegada |
 | Posicionamiento | Firma enterprise (vs. Deloitte/PwC) | Marca personal independiente |
-| Mercado objetivo | Empresas grandes/medianas, privado exclusivo | Espectro público+privado |
-| CTA principal | Formulario de contacto | Cal.com directo |
 | Tono | Formal-accesible | Cercano/casual |
 | Visual | Sobrio, sin animación decorativa | Tech/startup, animado |
