@@ -24,15 +24,8 @@ export default function Footer() {
           <nav className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-white/75">
             <a href="#servicios" className="hover:text-white transition-colors">Servicios</a>
             <a href="#proceso" className="hover:text-white transition-colors">Cómo trabajamos</a>
-            <a href="#perfil" className="hover:text-white transition-colors">Perfil</a>
-            <a
-              href="https://app.cal.com/matiasbalbontin"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-white transition-colors"
-            >
-              Agendar reunión
-            </a>
+            <a href="#perfil" className="hover:text-white transition-colors">Liderazgo</a>
+            <a href="#contacto" className="hover:text-white transition-colors">Contacto</a>
             <a
               href="https://wa.me/56994388261"
               target="_blank"

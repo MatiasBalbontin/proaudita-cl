@@ -6,7 +6,7 @@ import Logo from './Logo'
 const links = [
   { href: '#servicios', label: 'Servicios' },
   { href: '#proceso', label: 'Cómo trabajamos' },
-  { href: '#perfil', label: 'Perfil' },
+  { href: '#perfil', label: 'Liderazgo' },
   { href: '#contacto', label: 'Contacto' },
 ]
 
@@ -48,12 +48,10 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://app.cal.com/matiasbalbontin"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-primary text-white text-sm font-semibold px-4 py-2 rounded-lg hover:bg-navy hover:-translate-y-0.5 transition-all shadow-sm shadow-primary/20"
+            href="#contacto"
+            className="inline-flex items-center gap-2 bg-primary text-white text-sm font-semibold px-4 py-2 rounded-lg hover:bg-navy transition-colors shadow-sm shadow-primary/20"
           >
-            Agendar
+            Contacto
           </a>
         </div>
 
@@ -99,13 +97,11 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://app.cal.com/matiasbalbontin"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#contacto"
             className="mt-4 w-full inline-flex justify-center items-center bg-primary text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-navy transition-colors"
             onClick={closeMenu}
           >
-            Agendar diagnóstico gratuito
+            Contacto
           </a>
         </div>
       )}
