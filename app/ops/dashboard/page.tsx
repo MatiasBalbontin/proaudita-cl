@@ -108,7 +108,7 @@ export default function OpsDashboard() {
 
   const isMarkdown = active?.ext === '.md'
   const renderedHtml =
-    isMarkdown && content
+    isMarkdown && content && typeof window !== 'undefined'
       ? DOMPurify.sanitize(marked(content) as string)
       : null
 

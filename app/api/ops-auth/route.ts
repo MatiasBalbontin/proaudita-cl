@@ -26,7 +26,13 @@ export async function POST(req: NextRequest) {
   const { password } = await req.json()
   const expected = process.env.OPS_PASSWORD
 
-  if (!expected || password !== expected) {
+  if (!expected) {
+    return NextResponse.json({ error: 'Contraseña incorrecta' }, { status: 401 })
+  }
+  const a = Buffer.from(password ?? '')
+  const b = Buffer.from(expected)
+  const match = a.length === b.length && timingSafeEqual(a, b)
+  if (!match) {
     return NextResponse.json({ error: 'Contraseña incorrecta' }, { status: 401 })
   }
 

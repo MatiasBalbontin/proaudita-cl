@@ -66,12 +66,14 @@ export function listFiles(section: Section): OpsFile[] {
 }
 
 export function readOpsFile(section: Section, filePath: string): string {
+  if (filePath.includes('\0')) throw new Error('Invalid path')
+
   const { dir } = OPS_SECTIONS[section]
   const fullPath = path.join(dir, filePath)
   const resolved = path.resolve(fullPath)
   const base = path.resolve(dir)
 
-  if (!resolved.startsWith(base + path.sep) && resolved !== base) {
+  if (!resolved.startsWith(base + path.sep)) {
     throw new Error('Invalid path')
   }
 
