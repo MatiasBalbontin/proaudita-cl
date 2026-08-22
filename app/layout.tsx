@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     url: 'https://proaudita.cl',
     title: 'Proaudita | Auditoría estratégica. Resultados medibles.',
     description:
-      'Triple formación: Contador Auditor, Ingeniería en Informática y Transformación Digital. Auditoría de procesos, contabilidad y automatización para organizaciones en Chile.',
+      'Auditoría de procesos, planificación tributaria y automatización para empresas medianas y grandes en Chile. Matías Balbontín — Contador Auditor UdeC.',
     siteName: 'Proaudita',
   },
   twitter: {
@@ -56,6 +56,38 @@ export const metadata: Metadata = {
   },
 }
 
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Person',
+      '@id': 'https://proaudita.cl/#founder',
+      name: 'Matías Balbontín',
+      jobTitle: 'Socio Fundador y CEO',
+      worksFor: { '@id': 'https://proaudita.cl/#firm' },
+    },
+    {
+      '@type': ['ProfessionalService', 'LocalBusiness'],
+      '@id': 'https://proaudita.cl/#firm',
+      name: 'Proaudita',
+      url: 'https://proaudita.cl',
+      description:
+        'Auditoría estratégica, tributación y consultoría de procesos para empresas en Chile.',
+      areaServed: { '@type': 'Country', name: 'Chile' },
+      telephone: '+56994388261',
+      founder: { '@id': 'https://proaudita.cl/#founder' },
+      serviceType: [
+        'Auditoría de procesos',
+        'Diagnóstico contable-financiero',
+        'Planificación tributaria',
+        'Contabilidades completas',
+        'Automatización de flujos de trabajo',
+      ],
+      knowsAbout: ['Auditoría', 'Tributación', 'Contabilidad', 'Automatización'],
+    },
+  ],
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -63,6 +95,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className={`${spaceGrotesk.variable} ${inter.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body>{children}</body>
     </html>
   )

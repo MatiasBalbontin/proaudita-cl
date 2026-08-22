@@ -7,7 +7,6 @@ const links = [
   { href: '#servicios', label: 'Servicios' },
   { href: '#proceso', label: 'Cómo trabajamos' },
   { href: '#perfil', label: 'Liderazgo' },
-  { href: '#contacto', label: 'Contacto' },
 ]
 
 export default function Navbar() {

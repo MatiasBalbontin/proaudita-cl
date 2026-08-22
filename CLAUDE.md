@@ -37,7 +37,7 @@ review my UI                  → auditoría visual completa
 - Responsive: mobile-first, breakpoints en `sm` (640px), `md` (768px), `lg` (1024px)
 - Navegación sticky con logo + anchors + CTA "Agendar"
 - Hero: tagline "Auditoría estratégica. Resultados medibles." visible sin scroll en desktop y mobile
-- 5 servicios en 3 grupos visuales (ver CONTEXT.md)
+- 5 servicios en 4 grupos visuales (ver CONTEXT.md)
 - Sección de perfil con credenciales — UdeC mencionado con nombre completo
 - Formulario + botón WhatsApp + embed/link Cal.com
 
@@ -78,9 +78,14 @@ review my UI                  → auditoría visual completa
 
 ---
 
-## Pendientes que el usuario debe resolver (no bloquean el lanzamiento)
+## Estado del sitio
 
-- [ ] Foto profesional para sección de perfil
+**proaudita.cl está VIVO** — lanzado y verificado el 2026-08-10. SSL activo, 0 errores.
+
+## Pendientes que el usuario debe resolver
+
+- [ ] Foto profesional para sección de perfil (`components/Profile.tsx`)
+- [ ] Verificar formulario de contacto en producción (enviar mensaje de prueba real)
 - [ ] Actualizar bio Cal.com a español con posicionamiento correcto
 - [ ] Actualizar LinkedIn y proporcionar URL para incluir en el sitio
 - [ ] Configurar WhatsApp Business con nombre Proaudita

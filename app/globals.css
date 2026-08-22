@@ -75,4 +75,114 @@
   .clip-diagonal {
     clip-path: polygon(0 3.5vw, 100% 0, 100% calc(100% - 3.5vw), 0 100%);
   }
+
+  /* Respect prefers-reduced-motion — skip reveal animation entirely */
+  @media (prefers-reduced-motion: reduce) {
+    .reveal,
+    .reveal.reveal-armed,
+    .reveal.reveal-armed.is-visible {
+      opacity: 1 !important;
+      transform: none !important;
+      transition: none !important;
+    }
+  }
+
+  /* Ops dashboard markdown renderer */
+  .ops-prose {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    line-height: 1.75;
+  }
+  .ops-prose h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .ops-prose h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 1.75rem 0 0.5rem;
+  }
+  .ops-prose h3 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+    margin: 1.25rem 0 0.4rem;
+  }
+  .ops-prose p {
+    margin: 0 0 0.875rem;
+  }
+  .ops-prose ul,
+  .ops-prose ol {
+    margin: 0 0 0.875rem 1.25rem;
+  }
+  .ops-prose li {
+    margin-bottom: 0.3rem;
+  }
+  .ops-prose code {
+    background: rgba(255, 255, 255, 0.07);
+    color: #7B8FFF;
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-family: monospace;
+  }
+  .ops-prose pre {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 8px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 0 0 1rem;
+  }
+  .ops-prose pre code {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.65);
+    padding: 0;
+    font-size: 0.8rem;
+  }
+  .ops-prose blockquote {
+    border-left: 3px solid #0019FF;
+    padding-left: 1rem;
+    color: rgba(255, 255, 255, 0.45);
+    margin: 0 0 1rem;
+    font-style: italic;
+  }
+  .ops-prose hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    margin: 1.5rem 0;
+  }
+  .ops-prose a {
+    color: #7B8FFF;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .ops-prose table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 0 1rem;
+    font-size: 0.85rem;
+  }
+  .ops-prose th {
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.4rem 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .ops-prose td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  .ops-prose input[type='checkbox'] {
+    margin-right: 0.4rem;
+  }
 }
