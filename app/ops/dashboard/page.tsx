@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { marked } from 'marked'
+import DOMPurify from 'dompurify'
 
 marked.use({ breaks: true, gfm: true })
 
@@ -107,7 +108,9 @@ export default function OpsDashboard() {
 
   const isMarkdown = active?.ext === '.md'
   const renderedHtml =
-    isMarkdown && content ? (marked(content) as string) : null
+    isMarkdown && content
+      ? DOMPurify.sanitize(marked(content) as string)
+      : null
 
   return (
     <div

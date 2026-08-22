@@ -1,18 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createHash } from 'crypto'
 import { cookies } from 'next/headers'
 import { listFiles, readOpsFile, OPS_SECTIONS, Section } from '@/lib/ops'
-
-function hashPassword(password: string): string {
-  return createHash('sha256').update(password + 'proaudita-ops-salt').digest('hex')
-}
+import { verifyToken } from '@/app/api/ops-auth/route'
 
 async function isAuthenticated(): Promise<boolean> {
   const cookieStore = await cookies()
   const session = cookieStore.get('ops_session')
   const password = process.env.OPS_PASSWORD
   if (!password || !session) return false
-  return session.value === hashPassword(password)
+  return verifyToken(session.value, password)
 }
 
 export async function GET(req: NextRequest) {
