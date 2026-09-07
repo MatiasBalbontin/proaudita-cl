@@ -1,0 +1,9 @@
+categoria,documento,obligatorio,estado,fecha_solicitud,fecha_recepcion,responsable_cliente,notas
+Identificacion,RUT empresa (e-RUT),si,pendiente,2026-09-07,,,
+Regimen,Carpeta Tributaria SII (PDF),si,pendiente,2026-09-07,,,Preferir export sobre clave
+Regimen,Ultimas 12 declaraciones F29,si,pendiente,2026-09-07,,,
+Regimen,Ultimas 2 declaraciones F22,si,pendiente,2026-09-07,,,
+Contabilidad,Balance clasificado 2 ejercicios,si,pendiente,2026-09-07,,,
+Contabilidad,Libro compras y ventas 12 meses,si,pendiente,2026-09-07,,,Export ERP
+Operacion,Nomina remuneraciones 3 meses,no,pendiente,2026-09-07,,,
+Accesos,Usuario solo lectura ERP,no,pendiente,2026-09-07,,,Ver seccion 4 del manual

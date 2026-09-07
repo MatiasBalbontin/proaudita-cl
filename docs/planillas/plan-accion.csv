@@ -1,0 +1,5 @@
+id,hallazgo_id,accion,tipo,responsable,plazo,prioridad,ahorro_o_riesgo_clp,estado
+A001,H001,Presentar F29 rectificatoria reversando IVA credito improcedente,correctiva,Proaudita,2026-09-30,alta,4200000,pendiente
+A002,H002,Regularizar retenciones y declarar F1887,correctiva,Proaudita,2026-10-15,alta,1800000,pendiente
+A003,H003,Simular cambio a 14D N3 y presentar recomendacion,optimizacion,Proaudita,2026-10-31,media,3500000,pendiente
+A004,H004,Documentar activos elegibles para depreciacion instantanea,optimizacion,Cliente,2026-11-30,baja,900000,pendiente

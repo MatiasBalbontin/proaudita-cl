@@ -1,0 +1,5 @@
+obligacion,formulario,periodicidad,proxima_fecha,responsable,alerta_dias_antes,estado,notas
+IVA + PPM + retenciones,F29,mensual,2026-10-12,Cliente,5,activo,Dia 12 mes siguiente segun digito verificador
+Declaracion anual renta,F22,anual,2027-04-30,Proaudita,30,activo,
+Declaracion jurada honorarios,F1887,anual,2027-03-31,Proaudita,15,activo,
+Impuestos varios,F50,mensual,2026-10-12,Cliente,5,activo,Solo si aplica

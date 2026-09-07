@@ -1,0 +1,4 @@
+sistema,tipo_acceso,nivel_privilegio,autorizado_por,fecha_otorgado,fecha_revocado,estado,notas
+SII,Representacion electronica,solo lectura,Cliente (correo firmado),2026-09-07,,activo,Sin compartir clave
+ERP Nubox,Usuario solo lectura,lectura,Cliente,2026-09-07,,activo,
+Banco,Export cartola,ninguno,Cliente,2026-09-07,,cerrado,Solo PDF entregado - no credenciales

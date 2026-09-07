@@ -1,0 +1,5 @@
+id,tipo,titulo,descripcion,severidad,impacto_clp,ahorro_estimado_clp,recomendacion,etapa_ruta,estado
+H001,riesgo,IVA credito de DTE rechazadas,Se registro IVA credito fiscal de facturas luego rechazadas sin ajuste,ALTO,4200000,,Reversar credito y presentar F29 rectificatoria,2,abierto
+H002,riesgo,Retenciones segunda categoria no declaradas,Honorarios pagados sin retencion declarada,ALTO,1800000,,Regularizar y declarar F1887,2,abierto
+H003,oportunidad,Cambio a regimen 14D N3,Ingresos bajo UF 75000 permiten tasa 25% vs 27% actual,MEDIO,,3500000,Evaluar cambio de regimen con proyeccion de ingresos,3,abierto
+H004,oportunidad,Depreciacion instantanea activo fijo,Activos elegibles no acogidos al beneficio,BAJO,,900000,Aplicar depreciacion instantanea en proximo F22,3,abierto
