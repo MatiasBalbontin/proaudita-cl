@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { cookies } from 'next/headers'
 import { listFiles, readOpsFile, OPS_SECTIONS, Section } from '@/lib/ops'
-import { verifyToken } from '@/app/api/ops-auth/route'
+import { verifyToken } from '@/lib/ops-crypto'
 
 async function isAuthenticated(): Promise<boolean> {
   const cookieStore = await cookies()
