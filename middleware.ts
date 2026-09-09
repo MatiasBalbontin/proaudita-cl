@@ -1,20 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createHmac, timingSafeEqual } from 'crypto'
+import { verifyToken } from '@/lib/ops-crypto'
 
-function verifyToken(token: string, password: string): boolean {
-  const dot = token.indexOf('.')
-  if (dot === -1) return false
-  const nonce = token.slice(0, dot)
-  const providedHmac = token.slice(dot + 1)
-  const expected = createHmac('sha256', password).update(nonce).digest('hex')
-  try {
-    const a = Buffer.from(providedHmac, 'hex')
-    const b = Buffer.from(expected, 'hex')
-    return a.length === b.length && timingSafeEqual(a, b)
-  } catch {
-    return false
-  }
-}
+export const runtime = 'nodejs'
+
 
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl
