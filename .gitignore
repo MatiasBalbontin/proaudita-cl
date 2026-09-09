@@ -39,3 +39,14 @@ next-env.d.ts
 .impeccable/
 .agents/
 .superpowers/
+
+# datos comerciales — contienen datos personales de terceros (Ley 19.628)
+/data/
+!/data/README.md
+
+# secretos locales
+.env
+**/.env
+
+# salidas de revision — contienen datos personales de terceros (Ley 19.628)
+/Salidas express/

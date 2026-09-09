@@ -1,0 +1,31 @@
+- table [ref=e2]:
+  - rowgroup [ref=e3]:
+    - row [ref=e4]:
+      - cell [ref=e5]:
+        - table [ref=e6]:
+          - rowgroup [ref=e7]:
+            - row [ref=e8]:
+              - cell [ref=e9]:
+                - img "Proaudita" [ref=e10]
+              - cell [ref=e12]
+              - cell "Matías Balbontín Socio Fundador y CEO · Proaudita" [ref=e14]:
+                - generic [ref=e15]: Matías Balbontín
+                - generic [ref=e16]: Socio Fundador y CEO · Proaudita
+        - table [ref=e17]:
+          - rowgroup [ref=e18]:
+            - row [ref=e19]:
+              - cell [ref=e20]:
+                - table [ref=e21]:
+                  - rowgroup [ref=e22]:
+                    - row [ref=e23]:
+                      - cell [ref=e24]:
+                        - link "matiasbalbontin@proaudita.cl" [ref=e25] [cursor=pointer]:
+                          - /url: mailto:matiasbalbontin@proaudita.cl
+                      - cell "·" [ref=e26]
+                      - cell [ref=e27]:
+                        - link "+56 9 9438 8261" [ref=e28] [cursor=pointer]:
+                          - /url: tel:+56994388261
+                      - cell "·" [ref=e29]
+                      - cell [ref=e30]:
+                        - link "proaudita.cl" [ref=e31] [cursor=pointer]:
+                          - /url: https://proaudita.cl
