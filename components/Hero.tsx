@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Reveal from './Reveal'
 
 export default function Hero() {
@@ -6,7 +7,8 @@ export default function Hero() {
       id="inicio"
       className="relative min-h-screen flex items-center bg-white pt-24 pb-16"
     >
-      <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full grid grid-cols-1 lg:grid-cols-[1fr_minmax(0,26rem)] gap-12 lg:gap-16 items-center">
+        <div>
         <Reveal>
           <div className="inline-flex items-center gap-2 bg-surface text-sm font-medium text-navy px-4 py-1.5 rounded-full mb-8 border border-navy/10">
             <span className="w-2 h-2 rounded-full bg-primary" aria-hidden="true" />
@@ -73,6 +75,36 @@ export default function Hero() {
             <span>Risk &amp; Procesos</span>
             <span aria-hidden="true">·</span>
             <span>Consultoría Tecnológica</span>
+          </div>
+        </Reveal>
+        </div>
+
+        {/* Imagen — Santiago */}
+        <Reveal delay={200} className="hidden lg:block">
+          <div className="relative">
+            <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl shadow-navy/20 ring-1 ring-navy/5">
+              <Image
+                src="/photos/hero-santiago.webp"
+                alt="Skyline de Santiago de Chile al atardecer, con la cordillera de los Andes al fondo"
+                fill
+                priority
+                sizes="(max-width: 1024px) 0px, 26rem"
+                className="object-cover"
+              />
+              <div
+                aria-hidden="true"
+                className="absolute inset-0 bg-gradient-to-t from-navy/30 via-transparent to-transparent"
+              />
+            </div>
+            {/* Tarjeta flotante */}
+            <div className="absolute -bottom-5 -left-5 bg-white rounded-2xl shadow-xl shadow-navy/10 border border-navy/5 px-5 py-4">
+              <p className="font-grotesk font-semibold text-navy text-sm leading-tight">
+                Empresas en todo Chile
+              </p>
+              <p className="text-muted text-xs mt-0.5">
+                Auditoría, tributación y procesos
+              </p>
+            </div>
           </div>
         </Reveal>
       </div>

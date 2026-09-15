@@ -4,6 +4,7 @@ export interface Producto {
   tagline: string
   descripcion: string
   color: string // tailwind bg class for accent
+  hero: string // ruta a imagen de fondo del hero (public/photos/*)
   icono: string // SVG path d=
   problema: string
   paraquien: string[]
@@ -16,6 +17,7 @@ export interface Producto {
 export const productos: Producto[] = [
   {
     slug: 'diagnostico',
+    hero: '/photos/servicio-diagnostico.webp',
     nombre: 'Proaudita Diagnóstico',
     tagline: 'Detecta qué está fallando en tu empresa y cuánto te está costando.',
     descripcion:
@@ -64,6 +66,7 @@ export const productos: Producto[] = [
   },
   {
     slug: 'control',
+    hero: '/photos/servicio-control.webp',
     nombre: 'Proaudita Control',
     tagline: 'Cumplimiento contable continuo, sin sorpresas.',
     descripcion:
@@ -112,6 +115,7 @@ export const productos: Producto[] = [
   },
   {
     slug: 'tax',
+    hero: '/photos/servicio-tax.webp',
     nombre: 'Proaudita Tax',
     tagline: 'Paga lo justo. Elimina el riesgo tributario.',
     descripcion:
@@ -160,6 +164,7 @@ export const productos: Producto[] = [
   },
   {
     slug: 'data',
+    hero: '/photos/servicio-data.webp',
     nombre: 'Proaudita Data',
     tagline: 'Decide con números reales, no con intuición.',
     descripcion:
@@ -208,6 +213,7 @@ export const productos: Producto[] = [
   },
   {
     slug: 'flow',
+    hero: '/photos/servicio-flow.webp',
     nombre: 'Proaudita Flow',
     tagline: 'Elimina el trabajo manual y los errores de proceso.',
     descripcion:
@@ -256,6 +262,7 @@ export const productos: Producto[] = [
   },
   {
     slug: 'toolkit',
+    hero: '/photos/servicio-toolkit.webp',
     nombre: 'Proaudita Toolkit',
     tagline: 'Herramientas digitales para pymes. Próximamente.',
     descripcion:

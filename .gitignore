@@ -50,3 +50,6 @@ next-env.d.ts
 
 # salidas de revision — contienen datos personales de terceros (Ley 19.628)
 /Salidas express/
+
+# fotos fuente sin optimizar (~112MB) — se optimizan a /public/photos con Scripts/optimize_photos.py
+/assets/photos/source/

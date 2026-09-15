@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import { productos, getProducto } from '@/lib/productos'
 import Navbar from '@/components/Navbar'
@@ -46,6 +47,20 @@ export default async function ProductoPage({
       <main className="pt-16">
         {/* Hero del producto */}
         <section className="relative py-24 bg-ink overflow-hidden">
+          {/* Imagen de fondo */}
+          {producto.hero && (
+            <div className="absolute inset-0 pointer-events-none">
+              <Image
+                src={producto.hero}
+                alt=""
+                fill
+                priority
+                sizes="100vw"
+                className="object-cover opacity-25"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/85 to-ink/70" />
+            </div>
+          )}
           {/* Decoración */}
           <div className="absolute inset-0 pointer-events-none">
             <div className="absolute top-0 right-0 w-[40rem] h-[40rem] rounded-full bg-primary/10 blur-3xl -translate-y-1/2 translate-x-1/4" />

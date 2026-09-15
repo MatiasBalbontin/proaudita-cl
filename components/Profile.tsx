@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Reveal from './Reveal'
 
 const credentials = [
@@ -31,10 +32,14 @@ export default function Profile() {
           {/* Left — photo, name, credentials */}
           <Reveal>
             <div>
-              <div className="aspect-[4/5] w-full max-w-xs rounded-2xl bg-gradient-to-br from-primary to-navy flex items-center justify-center shadow-lg shadow-primary/20">
-                <span className="text-white font-grotesk font-semibold text-6xl">
-                  MB
-                </span>
+              <div className="relative aspect-[4/5] w-full max-w-xs rounded-2xl overflow-hidden shadow-lg shadow-primary/20 ring-1 ring-navy/5">
+                <Image
+                  src="/photos/founder.webp"
+                  alt="Matías Balbontín, Socio Fundador y CEO de Proaudita"
+                  fill
+                  sizes="(max-width: 1024px) 20rem, 18rem"
+                  className="object-cover object-top"
+                />
               </div>
 
               <h2 className="mt-6 text-xl font-semibold text-ink leading-tight">

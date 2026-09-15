@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import Services from '@/components/Services'
 import Process from '@/components/Process'
+import ChileBand from '@/components/ChileBand'
 import Profile from '@/components/Profile'
 import FAQ from '@/components/FAQ'
 import Contact from '@/components/Contact'
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <Services />
         <Process />
+        <ChileBand />
         <Profile />
         <FAQ />
         <Contact />
