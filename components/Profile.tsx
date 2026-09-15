@@ -45,7 +45,7 @@ export default function Profile() {
               <h2 className="mt-6 text-xl font-semibold text-ink leading-tight">
                 Matías Balbontín
               </h2>
-              <p className="text-muted text-sm mt-0.5">Socio Fundador y CEO</p>
+              <p className="text-muted text-sm mt-0.5">Gerente de desarrollo</p>
 
               <div className="mt-6 space-y-3">
                 {credentials.map((c) => (
@@ -74,33 +74,32 @@ export default function Profile() {
           <Reveal delay={120}>
             <div>
               <h3 className="text-2xl sm:text-3xl font-semibold text-ink leading-tight">
-                Carta del fundador
+                Visión y misión
               </h3>
 
-              <div className="mt-6 space-y-5 text-muted text-lg leading-relaxed">
-                <p>
-                  Creo en una auditoría que no solo revisa — construye
-                  confianza: en tus procesos, en tus números, y en las
-                  decisiones que tomas con ellos.
-                </p>
-                <p>
-                  Fundé Proaudita para eso. Combino auditoría y tecnología
-                  para que esa confianza sea real, no un informe más — porque
-                  esas decisiones terminan afectando a tus clientes, tus
-                  accionistas, tu equipo y todo lo que construiste.
-                </p>
-                <p>
-                  Trabajamos con empresas medianas y grandes que quieren ir más
-                  allá del cumplimiento: entender su operación en profundidad, y
-                  mejorarla con evidencia. Si ese es tu caso, conversemos.
-                </p>
-              </div>
+              <div className="mt-8 space-y-8">
+                <div>
+                  <span className="text-sm font-semibold text-primary tracking-wide uppercase">
+                    Misión
+                  </span>
+                  <p className="mt-3 text-muted text-lg leading-relaxed">
+                    Somos una startup de contabilidad y auditoría de sistemas:
+                    combinamos rigor contable, ingeniería y tecnología para que
+                    cada empresa entienda su operación en profundidad y decida
+                    con evidencia — no solo para cumplir la norma.
+                  </p>
+                </div>
 
-              <div className="mt-8 pt-6 border-t border-gray-100">
-                <p className="font-grotesk font-semibold text-ink">
-                  Matías Balbontín
-                </p>
-                <p className="text-muted text-sm">Socio Fundador y CEO, Proaudita</p>
+                <div>
+                  <span className="text-sm font-semibold text-primary tracking-wide uppercase">
+                    Visión
+                  </span>
+                  <p className="mt-3 text-muted text-lg leading-relaxed">
+                    Ser la firma de referencia en Chile para empresas que buscan
+                    resultados medibles, donde cada revisión construye confianza
+                    real en los procesos, los números y las decisiones.
+                  </p>
+                </div>
               </div>
 
               <a
