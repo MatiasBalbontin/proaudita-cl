@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import Logo from './Logo'
+import { promo } from '@/lib/promo'
 
 const servicios = [
   { href: '/servicios/diagnostico', label: 'Proaudita Diagnóstico', desc: 'Detecta qué está fallando' },
@@ -44,7 +45,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-9 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed ${promo.activa ? 'top-9' : 'top-0'} left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
           ? 'bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100'
           : 'bg-transparent'

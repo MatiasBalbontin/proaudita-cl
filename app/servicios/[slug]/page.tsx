@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { productos, getProducto } from '@/lib/productos'
+import { promo } from '@/lib/promo'
 import PromoTicker from '@/components/PromoTicker'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -46,7 +47,7 @@ export default async function ProductoPage({
     <>
       <PromoTicker />
       <Navbar />
-      <main className="pt-[6.25rem]">
+      <main className={promo.activa ? 'pt-[6.25rem]' : 'pt-16'}>
         {/* Hero del producto */}
         <section className="relative py-24 bg-ink overflow-hidden">
           {/* Imagen de fondo */}

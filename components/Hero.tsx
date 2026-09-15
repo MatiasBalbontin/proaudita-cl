@@ -1,11 +1,14 @@
 import Reveal from './Reveal'
 import HeroCarousel from './HeroCarousel'
+import { promo } from '@/lib/promo'
 
 export default function Hero() {
   return (
     <section
       id="inicio"
-      className="relative min-h-screen flex items-center bg-white pt-32 pb-16"
+      className={`relative min-h-screen flex items-center bg-white pb-16 ${
+        promo.activa ? 'pt-32' : 'pt-24'
+      }`}
     >
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full grid grid-cols-1 lg:grid-cols-[1fr_minmax(0,26rem)] gap-12 lg:gap-16 items-center">
         <div>
