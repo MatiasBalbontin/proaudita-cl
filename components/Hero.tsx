@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import Reveal from './Reveal'
+import HeroCarousel from './HeroCarousel'
 
 export default function Hero() {
   return (
@@ -79,23 +79,10 @@ export default function Hero() {
         </Reveal>
         </div>
 
-        {/* Imagen — Santiago */}
-        <Reveal delay={200} className="hidden lg:block">
+        {/* Imágenes — Chile (carrusel) */}
+        <Reveal delay={200}>
           <div className="relative">
-            <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl shadow-navy/20 ring-1 ring-navy/5">
-              <Image
-                src="/photos/hero-santiago.webp"
-                alt="Skyline de Santiago de Chile al atardecer, con la cordillera de los Andes al fondo"
-                fill
-                priority
-                sizes="(max-width: 1024px) 0px, 26rem"
-                className="object-cover"
-              />
-              <div
-                aria-hidden="true"
-                className="absolute inset-0 bg-gradient-to-t from-navy/30 via-transparent to-transparent"
-              />
-            </div>
+            <HeroCarousel />
             {/* Tarjeta flotante */}
             <div className="absolute -bottom-5 -left-5 bg-white rounded-2xl shadow-xl shadow-navy/10 border border-navy/5 px-5 py-4">
               <p className="font-grotesk font-semibold text-navy text-sm leading-tight">

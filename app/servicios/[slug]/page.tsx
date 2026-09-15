@@ -56,9 +56,11 @@ export default async function ProductoPage({
                 fill
                 priority
                 sizes="100vw"
-                className="object-cover opacity-25"
+                className="object-cover opacity-60"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/85 to-ink/70" />
+              {/* Oscurece la izquierda (donde va el texto) y deja ver la imagen a la derecha */}
+              <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/80 to-ink/30" />
+              <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-ink/40" />
             </div>
           )}
           {/* Decoración */}

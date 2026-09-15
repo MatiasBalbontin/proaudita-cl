@@ -76,6 +76,24 @@
     clip-path: polygon(0 3.5vw, 100% 0, 100% calc(100% - 3.5vw), 0 100%);
   }
 
+  /* Ken Burns: zoom lento sobre la imagen activa del carrusel del hero */
+  @keyframes kenburns {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.08);
+    }
+  }
+  .animate-kenburns {
+    animation: kenburns 6s ease-out forwards;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-kenburns {
+      animation: none !important;
+    }
+  }
+
   /* Respect prefers-reduced-motion — skip reveal animation entirely */
   @media (prefers-reduced-motion: reduce) {
     .reveal,
